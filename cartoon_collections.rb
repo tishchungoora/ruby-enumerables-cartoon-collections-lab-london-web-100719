@@ -19,6 +19,9 @@ end
 def find_the_cheese(foods)
   cheese_types = ["cheddar", "gouda", "camembert"]
   
+  foods.include? 
+  
+  
   Does my foods array include one of the elements of cheese_types?
   If yes, return the first element of cheese_types that occurs
   
