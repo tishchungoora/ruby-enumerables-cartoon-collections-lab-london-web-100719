@@ -26,7 +26,7 @@ def find_the_cheese(foods)
   i = 0
   
   while (i < foods.length && !fmatch)
-    if foods.index(cheese_types[i] > -1)
+    if foods.index(cheese_types[i]) > -1
       result = cheese_types[i]
       fmatch = true
     end
