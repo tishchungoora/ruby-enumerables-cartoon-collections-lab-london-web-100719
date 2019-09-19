@@ -21,11 +21,13 @@ end
 
 def find_the_cheese(foods)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  result = nil
+  fmatch = false
+  i = 0
   
-  foods.any? { |n| cheese_types.include?(n) } == true
+  while (i < foods.length && !fmatch)
+    if foods.
   
   
-  Does my foods array include one of the elements of cheese_types?
-  If yes, return the first element of cheese_types that occurs
-  
+  return result
 end
