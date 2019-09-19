@@ -17,6 +17,11 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(foods)
-  # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+  
+  Does my foods array include one of the elements of cheese_types?
+  If yes, return the first element of cheese_types that occurs
+  
+If no, return nil (or don't return anything)
+  
 end
