@@ -21,7 +21,6 @@ end
 
 def find_the_cheese(foods)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  result = nil
   fmatch = false
   i = 0
   
@@ -32,6 +31,4 @@ def find_the_cheese(foods)
     end
     i += 1
   end
-  
-  return result
 end
