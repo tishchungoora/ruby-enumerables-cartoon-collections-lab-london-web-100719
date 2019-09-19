@@ -21,8 +21,8 @@ end
 
 def find_the_cheese(foods)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  i=0
-  foods.include?(cheese_types[i]) == true
+  
+  foods.any? { |n| cheese_types.include?(n) } == true
   
   
   Does my foods array include one of the elements of cheese_types?
